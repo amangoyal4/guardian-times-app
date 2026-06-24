@@ -1,0 +1,28 @@
+{
+  "appId": "in.gcia.guardiantimes",
+  "appName": "Guardian Times",
+  "webDir": "www",
+  "backgroundColor": "#16161a",
+  "server": {
+    "url": "https://amangoyal4.github.io/guardian-times/",
+    "errorPath": "error.html",
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#16161a"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1100,
+      "launchAutoHide": true,
+      "backgroundColor": "#16161a",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#16161a"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Guardian Times</string>
+    <string name="title_activity_main">Guardian Times</string>
+    <string name="package_name">in.gcia.guardiantimes</string>
+    <string name="custom_url_scheme">in.gcia.guardiantimes</string>
+</resources>

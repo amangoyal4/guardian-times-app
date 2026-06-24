@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Guardian Times</title>
+  <style>
+    html,body{margin:0;height:100%;background:#16161a;color:#f7f3ea;
+      font-family:Georgia,'Times New Roman',serif;display:flex;align-items:center;justify-content:center;text-align:center}
+    .wrap{padding:32px}
+    h1{font-size:30px;letter-spacing:.5px;margin:0 0 8px}
+    p{opacity:.7;font-size:15px;margin:0}
+    .rule{width:48px;height:2px;background:#9c7b3f;margin:18px auto}
+  </style>
+</head>
+<body>
+  <!-- This page is shown only if the live edition can't be reached at launch.
+       Normally the app loads https://amangoyal4.github.io/guardian-times/ (set in
+       capacitor.config.json -> server.url). The redirect below is a safety net. -->
+  <div class="wrap">
+    <h1>Guardian Times</h1>
+    <div class="rule"></div>
+    <p>Loading today&rsquo;s edition&hellip;</p>
+  </div>
+  <script>location.replace('https://amangoyal4.github.io/guardian-times/');</script>
+</body>
+</html>

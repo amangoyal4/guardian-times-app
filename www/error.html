@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Guardian Times — Offline</title>
+  <style>
+    html,body{margin:0;height:100%;background:#16161a;color:#f7f3ea;
+      font-family:Georgia,'Times New Roman',serif;display:flex;align-items:center;justify-content:center;text-align:center}
+    .wrap{padding:34px;max-width:340px}
+    h1{font-size:26px;margin:0 0 6px}
+    .rule{width:48px;height:2px;background:#9c7b3f;margin:16px auto}
+    p{opacity:.72;font-size:15px;line-height:1.5;margin:0 0 22px}
+    button{font-family:inherit;font-size:15px;background:#9c7b3f;color:#16161a;border:none;
+      padding:12px 26px;border-radius:6px;cursor:pointer;font-weight:bold}
+    button:active{opacity:.85}
+  </style>
+</head>
+<body>
+  <!-- Shown by Capacitor (server.errorPath) when the live edition can't load,
+       e.g. no internet. Retry re-loads the live site. -->
+  <div class="wrap">
+    <h1>Guardian Times</h1>
+    <div class="rule"></div>
+    <p>We couldn&rsquo;t reach today&rsquo;s edition. Please check your internet connection and try again.</p>
+    <button onclick="location.replace('https://amangoyal4.github.io/guardian-times/')">Retry</button>
+  </div>
+</body>
+</html>
