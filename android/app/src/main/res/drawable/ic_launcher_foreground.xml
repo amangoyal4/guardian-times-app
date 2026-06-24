@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Guardian Times mark: four ascending columns (a markets bar-chart / newspaper
+         columns motif) in brand gold, over the dark ink background. Kept within the
+         adaptive-icon safe zone so masks don't clip it. -->
+    <path android:fillColor="#CDA349" android:pathData="M34,56 h8 v18 h-8 z" />
+    <path android:fillColor="#CDA349" android:pathData="M46,48 h8 v26 h-8 z" />
+    <path android:fillColor="#CDA349" android:pathData="M58,40 h8 v34 h-8 z" />
+    <path android:fillColor="#CDA349" android:pathData="M70,32 h8 v42 h-8 z" />
+    <path android:fillColor="#CDA349" android:pathData="M30,76 h48 v3 h-48 z" />
+</vector>
